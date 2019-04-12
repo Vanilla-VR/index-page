@@ -1,0 +1,186 @@
+*{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+ul{
+    list-style: none;
+}
+.left-list{
+    padding-top:10px;
+    width:40%;
+    padding-right:50px;
+}
+.left-button-container{
+    padding-top:35px;
+}
+.left-button{
+    color:white;
+    background-color: rgb(245, 132, 39);
+    border: 0px;
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 15px;
+}
+.left-button:hover{
+    color: rgb(245, 132, 39);
+    background-color: white;
+    border: 0px;
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 15px;
+}
+.right-button{
+    color: rgb(245, 132, 39);
+    background-color: white;
+    border: 0px;
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 15px;
+}
+.right-button:hover{
+    background-color: rgb(245, 132, 39);
+    color: white;
+    border: 0px;
+    height:50px;
+    width:150px;
+    border-radius: 5px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size: 15px;
+}
+.container{
+    width:100%;
+}
+.text{
+    width:100%;
+    position: absolute;
+    
+}
+.text-right{
+    position: absolute;
+}
+.left-item{
+    padding-top:5px;
+    padding-left: 50px;
+}
+.left-header{
+    font-family: 'News Cycle', sans-serif;
+    padding-left: 50px;
+}
+.right-item{
+    padding-top: 152px;
+}
+.right-header{
+    font-family: 'News Cycle', sans-serif;
+    padding-left:50px;
+    color:lightgray;
+}
+.left-body{
+    font-family: 'Assistant', sans-serif;
+    padding-top: 30px;
+    padding-left: 50px;
+}
+.right-body{
+    padding-left:50px;
+    padding-top:20px;
+    font-family: 'Assistant', sans-serif;
+}
+.right-content{
+    padding-top:20px;
+    padding-right:50px;
+}
+.img{
+    padding-top: 2px;
+    height:120px;
+    padding-left: 20px;
+    width:120px;
+}
+.black-bg{
+    width:50%;
+    float:left;
+    color:whitesmoke;
+    background-color: rgba(19, 19, 18, 0.9);
+}
+
+.white-bg{
+    width:50%;
+    float:left;
+    color:#333;
+    
+}
+.content-wh{
+    
+    position: relative;
+    height:100vh;
+    background: url("img/feat-crysis.jpg");
+    opacity: 0.1;
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    z-index: -2;
+}
+.content-bl{
+   
+    position: relative;
+    height:100vh;
+    background: url('img/students_learn.png');
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    z-index:-2;
+}
+a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+    .black-bg{
+        width:100%;
+    }
+    .img{
+        padding-top: 2px;
+        height:170px;
+        padding-left: 20px;
+        width:170px;
+    }
+    .white-bg{
+        width:100%;
+    }
+    .content-wh{
+        height:55vh;
+    }
+    .content-bl{
+        height:55vh;
+    }
+    .right-item{
+        padding-top: 170px;
+
+    }
+    .left-list{
+        width:100%;
+        margin-right:2px;
+    }
+    .left-button-container{
+        padding-top:55px;
+    }
+    .left-item{
+        padding-top:40px;
+        padding-right: 50px;
+    }
+    .left-body{
+        font-size: 25px;
+    }
+    .right-body{
+        font-size: 25px;
+    }
+  }
+
+ 
